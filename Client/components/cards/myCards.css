@@ -1,0 +1,56 @@
+body {
+  background-color: hsla(240, 8%, 23%, 0.15);
+}
+
+.btnContainer {
+  background-color: aqua;
+}
+
+.auction-card {
+  background-color: hwb(240 93% 5% / 0.979);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  width: 1000px;
+}
+
+.auction-card:hover {
+  transform: scale(1.02);
+}
+
+.autoBuyContainer {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 15px;
+  /* display: inline-block; */
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.status.on-going {
+  color: #5c5c5c;
+}
+
+.status.unsold {
+  color: #721c24;
+}
+
+.status.sold {
+  color: #155724;
+}
+
+.purchaseCard .buyText {
+  color: #155724;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+}

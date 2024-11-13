@@ -1,0 +1,58 @@
+.add-product {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-product button {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-product button:hover {
+  background-color: #0056b3;
+}
+
+.add-product .category-select {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.add-product .purchase-amount {
+  display: flex;
+  align-items: center;
+}
+
+.add-product .bid-input {
+  margin-right: 1em;
+  width: 48%;
+}
+
+.add-product .end-date-time {
+  display: flex;
+  align-items: center;
+}
+
+.add-product .end-date-time .end-date {
+  width: 48%;
+  margin-right: 1em;
+}
+
+.add-product .end-date-time .end-time {
+  width: 49%;
+}
+
+.category-select .select-control {
+  z-index: 10; /* Ensure this has a higher z-index */
+}

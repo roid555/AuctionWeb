@@ -1,0 +1,68 @@
+.products .pagination {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.products .pagination li {
+  margin: 0 5px;
+}
+
+.products .pagination li a {
+  background-color: #fdfdfd;
+  color: #007bff;
+  border-radius: 5px;
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.products .pagination li.active a {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+}
+
+.products h1 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 400%;
+}
+
+.products {
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  align-items: center;
+  top: 0;
+  padding: 50px;
+}
+
+.products .myCards .filters {
+  display: flex;
+  justify-content: space-between; /* Distribute space between the search and select */
+  align-items: center; /* Align items vertically */
+  gap: 20%;
+}
+
+.products .myCards .filters .category-select {
+  flex: 1; /* Allow the select to take up available space */
+  width: 600px;
+  order: 2; /* Place the select on the right */
+}
+
+.products .myCards .filters .search {
+  flex: 1; /* Allow the search input to take up available space */
+  width: 300px;
+  order: 1; /* Place the search input on the left */
+}
+
+.products .myCards .filters .search input {
+  width: 100%;
+}
+
+.products h2 {
+  color: #fdfdfd;
+  padding: 30px;
+}
